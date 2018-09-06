@@ -39,3 +39,6 @@ def add_mult(num1, num2, num3):
     """Add first and second numbers and multiply the result with third"""
     return (num1 + num2) * num3
 
+def add_cubes(num1, num2):
+    """Adds cube of num1 to cube of num2"""
+    return cube(num1) + cube(num2)
